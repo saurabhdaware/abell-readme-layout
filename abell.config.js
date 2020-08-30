@@ -1,4 +1,5 @@
 module.exports = {
-  contentPath: '.',
-  themePath: '.'
-}
+  contentPath: "theme",
+  themePath: "theme",
+  outputPath: "site"
+};
