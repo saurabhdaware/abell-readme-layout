@@ -8,7 +8,7 @@
 </head>
 <body>
   <main>
-    {{ Abell.importContent('../../README.md') }}
+    {{ Abell.importContent('../README.md') }}
   </main>
 </body>
 </html>
