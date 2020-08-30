@@ -12,6 +12,6 @@
 <body>
   <main>
     {{ importContent(globalMeta.userReadmeURL) }}
-/main>
+</main>
 </body>
 </html>
