@@ -1,5 +1,5 @@
 module.exports = {
-  contentPath: "theme",
-  themePath: "theme",
-  outputPath: ".."
+  contentPath: ".",
+  themePath: ".",
+  outputPath: "../docs"
 };
