@@ -1,0 +1,14 @@
+<html>
+<head>
+  <style>
+  main {
+    padding: 50px 50px;
+  }
+  </style>
+</head>
+<body>
+  <main>
+    {{ Abell.importContent('../README.md') }}
+  </main>
+</body>
+</html>
