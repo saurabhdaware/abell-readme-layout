@@ -1,0 +1,25 @@
+{
+  "name": "abell-readme-layout",
+  "version": "1.0.0",
+  "description": "EXPERIMENTAL layout to generate documentation site with Abell",
+  "main": "abell.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev abell serve",
+    "build": "NODE_ENV=dev abell build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhdaware/abell-readme-layout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhdaware/abell-readme-layout/issues"
+  },
+  "homepage": "https://github.com/saurabhdaware/abell-readme-layout#readme",
+  "devDependencies": {
+    "abell": "^0.5.1"
+  }
+}
