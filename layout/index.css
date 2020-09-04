@@ -12,6 +12,7 @@ html, body {
   margin: 0px;
   color: #191919;
   background-color: #fff;
+  font-size: 1rem;
 }
 
 .text-xxl {
@@ -64,8 +65,7 @@ nav#topnav .nav-item:hover {
 }
 
 .description {
-  padding: 6px 130px;
-  text-align: left;
+  padding: 0px 200px;
 }
 
 .view-github-link {
@@ -81,6 +81,16 @@ main {
   padding: 130px 200px;
 }
 
+/* markdown styles */
+h1 {font-size: 2.4rem;}
+h2 {font-size: 1.9rem;}
+h3 {font-size: 1.5rem;}
+pre > code {
+  border-radius: 5px;
+  padding: 20px !important;
+  line-height: 1.3rem;
+}
+
 footer {
   padding: 30px 200px;
   text-align: right;
@@ -88,7 +98,30 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .header {
+    padding: 100px 10px;
+  }
+
+  .description {
+    padding: 0px 10px;
+  }
+
   nav#topnav {
     padding: 0px 10px;
+  }
+
+
+  nav#topnav .nav-item {
+    padding: 30px 13px;
+    font-size: 0.9rem;
+    letter-spacing: unset;
+  }
+
+  main {
+    padding: 50px 25px;
+  }
+
+  footer {
+    padding: 30px;
   }
 }
