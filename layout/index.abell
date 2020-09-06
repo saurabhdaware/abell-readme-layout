@@ -41,7 +41,11 @@
         >
           <span style="font-size: larger">&#9733;</span> {{ ghdata.stargazers_count }}
         </span>
-        <span>&nbsp; | &nbsp;{{ ghdata.language }}</span>
+        {{ 
+          ghdata.language 
+          ? /* html */ `<span>&nbsp; | &nbsp;${ ghdata.language }</span>` 
+          : ''
+        }}
       </div>
       <p class="description">{{ ghdata.description }}</p>
       <a class="view-github-link" href="{{ globalMeta.github.repository }}">View on GitHub</a>

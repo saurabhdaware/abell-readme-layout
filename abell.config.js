@@ -35,7 +35,7 @@ if (fs.existsSync(userGlobalMetaPath)) {
 }
 
 module.exports = {
-  contentPath: "layout",
+  contentPath: "placeholder",
   themePath: "layout",
   outputPath: "../docs",
   globalMeta: {

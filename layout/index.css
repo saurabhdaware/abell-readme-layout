@@ -85,10 +85,30 @@ main {
 h1 {font-size: 2.4rem;}
 h2 {font-size: 1.9rem;}
 h3 {font-size: 1.5rem;}
+
 pre > code {
   border-radius: 5px;
   padding: 20px !important;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
+}
+
+blockquote{
+  background-color: #eee;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #333;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: smaller;
+}
+
+ul, ol {
+  line-height: 1.7rem;
 }
 
 footer {
