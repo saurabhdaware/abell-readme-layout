@@ -48,7 +48,7 @@
         }}
       </div>
       <p class="description">{{ ghdata.description }}</p>
-      <a class="view-github-link" href="{{ globalMeta.github.repository }}">View on GitHub</a>
+      <a class="view-github-link" href="https://github.com/{{ globalMeta.github.repository }}">View on GitHub</a>
     </div>
   </section>
 
